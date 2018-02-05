@@ -53,7 +53,6 @@
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
-      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
@@ -177,7 +176,16 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3Z8V7Y3AFD3" role="3cqZAp" />
+            <node concept="3clFbF" id="3hKa_MGXKRe" role="3cqZAp">
+              <node concept="2OqwBi" id="3hKa_MGXKZQ" role="3clFbG">
+                <node concept="37vLTw" id="3hKa_MGXKRc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="1KG$wwhwE6Y" resolve="service" />
+                </node>
+                <node concept="liA8E" id="3hKa_MGXLgr" role="2OqNvi">
+                  <ref role="37wK5l" to="5zyv:~ExecutorService.shutdown():void" resolve="shutdown" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="1_nNjQ" id="1KG$wwhu1dR" role="1_k5iv">
             <property role="3TUv4t" value="true" />
